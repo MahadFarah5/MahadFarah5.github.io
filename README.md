@@ -6,7 +6,7 @@ I build end-to-end data science projects that combine data cleaning, modeling, a
 My interests include predictive modeling, business analytics, and operations-focused insights.
 
 ## Work / Projects
-# Rent Price Prediction (House Rent Dataset)
+### Rent Price Prediction (House Rent Dataset)
 - Goal: Predict monthly rent from home features and location.
 - Methods: Linear/Regularized Regression, Random Forest, Gradient Boosting, cross-validation.
 - Deliverables: Cleaning pipeline, model evaluation, feature importance.
