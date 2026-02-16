@@ -1,5 +1,5 @@
 ## Mahad Farah
-Data Scientist | Applied Data Science (DSC 680)
+Inventory Analyst | Applied Data Science (DSC 680)
 
 ## About
 I build end-to-end data science projects that combine data cleaning, modeling, and clear storytelling.
