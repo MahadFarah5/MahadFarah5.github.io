@@ -1,0 +1,23 @@
+Apache NiFi is a data integration and automation platform designed to move and manage
+data between systems in a reliable and controlled way. The fundamentals video explains
+that NiFi follows a flow-based programming model, where data moves through a series of
+connected processors on a user interface. Each piece of data traveling through the system
+is called a FlowFile. A FlowFile contains both the actual data content and metadata
+attributes that describe it. Processors act on FlowFiles to perform tasks such as generating
+data, transforming formats, filtering records, routing based on conditions, or sending data
+to external systems. This visual approach makes complex data pipelines easier to design,
+monitor, and troubleshoot.
+
+NiFi tracks every FlowFile as it moves through the system, providing detailed insight into
+where the data came from, how it was transformed, and where it was sent. This
+transparency is essential for debugging, auditing, and ensuring data governance standards
+are met. The ability to monitor and trace data movement makes NiFi especially valuable in
+environments where compliance and accountability are important.
+
+These foundational concepts directly connect to this assignment because we are building
+data flows in NiFi and integrating them with Solr. NiFi is responsible for generating and
+processing log data, while Solr serves as the indexing and search engine that stores and
+queries that data. By sending processed logs from NiFi into a Solr collection, we create a
+complete data pipeline that automates ingestion and enables powerful search
+capabilities. This demonstrates how NiFi and Solr work together to manage, process, and
+analyze data efficiently in a real-world system.
