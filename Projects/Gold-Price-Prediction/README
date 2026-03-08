@@ -1,1 +1,4 @@
+Gold is widely viewed as a hedge against economic instability. Investors often turn to gold when inflation rises, interest rates change, or when uncertainty in financial markets increases.
+Several macroeconomic indicators are commonly believed to influence gold prices. For example, inflation may increase demand for gold as a store of value. Interest rates affect the opportunity cost of holding gold, since gold does not generate interest income. Currency strength also plays a role, because gold is typically priced in U.S. dollars.
+This project examines whether these macroeconomic indicators can be used to predict short-term gold price movements using statistical and machine learning techniques.
 
