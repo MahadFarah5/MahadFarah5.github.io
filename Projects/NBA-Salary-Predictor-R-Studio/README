@@ -1,0 +1,5 @@
+Introduction
+A combination of team finances, market conditions, and performance indicators affect NBA player wages. While adhering to salary cap restrictions, teams aim to assemble competitive lineups. It can be difficult to determine a player's worth with precision, though. This research investigates the use of machine learning and statistical analysis in data science to forecast NBA salary. We can determine important elements influencing player wages and suggest the best compensation prediction model by looking at past salary and performance data.
+
+Approach
+I'll do regression modeling and data cleansing using historical NBA pay and stats data. I'll create a method for predicting NBA player salaries by finding relationships between pay and performance indicators. Both standard and advanced statistics will be examined in order to determine how they affect pay levels
