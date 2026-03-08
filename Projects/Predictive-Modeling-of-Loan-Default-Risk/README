@@ -1,0 +1,6 @@
+The success of lending institutions hinges on their ability to accurately assess the risk of borrower default at the time of loan issuance. Inaccurate risk assessments can lead to higher default rates, reduced profitability, and increased financial instability. This project addresses the challenge of predicting whether a loan will be Fully Paid or Charged Off based solely on information available at origination.
+The dataset selected for this analysis is the LendingClub Accepted Loan Data from 2007 through Q4 2018. This dataset contains millions of loan applications, capturing borrower demographics, loan terms, credit history indicators, and other relevant features. The aim is to build a predictive model that classifies loans into high-risk and low-risk categories, enabling lenders to make data-driven credit approval decisions.
+The primary objectives of this project are:
+•	To identify the most significant predictors of loan default.
+•	To develop a model that balances recall (identifying as many defaults as possible) with precision (minimizing false alarms).
+•	To evaluate and compare the performance of baseline and advanced models using appropriate metrics.
