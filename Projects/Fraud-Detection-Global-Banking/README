@@ -1,5 +1,14 @@
+Background
 Financial institutions today face a rapidly increasing volume of fraudulent activities, including unauthorized credit card transactions and complex money laundering schemes.
 With billions of transactions processed daily across multiple countries, detecting fraud in real time has become both a technical and regulatory necessity.
 Many traditional banking systems rely on batch processing, meaning fraud is detected hours after it occurs. This delay increases financial losses and damages customer trust.
 In addition, global banks must comply with strict anti-money laundering regulations. Failure to detect suspicious transactions can result in significant penalties and reputational harm.
 Therefore, the bank needs a scalable, real-time architecture capable of detecting fraud instantly while ensuring full compliance with global AML regulations.
+
+Introduction
+This capstone project is able to detect fraud in our banking systems. The pipeline ingests a GitHub-hosted CSV with NiFi, stores it in HDFS, creates a managed Hive table for querying, trains and evaluates a Spark MLlib model on YARN, and writes the final evaluation metrics into HBase.
+
+Dataset
+The project uses tiny_transactions.csv, a small fraud-detection dataset. It contains five numeric features (V1-V5), transaction amount, transaction time, and the binary fraud label stored in Class. This GitHub-hosted file carries uniqueness while also remaining lightweight enough for NiFi and Hadoop services.
+Direct raw GitHub URL:
+https://raw.githubusercontent.com/SankarPatnaik/creditcard_fraud/main/data/raw/tiny_transactions.csv
