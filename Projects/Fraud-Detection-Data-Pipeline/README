@@ -1,7 +1,0 @@
-Introduction
-This capstone project is able to detect fraud in our banking systems. The pipeline ingests a GitHub-hosted CSV with NiFi, stores it in HDFS, creates a managed Hive table for querying, trains and evaluates a Spark MLlib model on YARN, and writes the final evaluation metrics into HBase.
-
-Dataset
-The project uses tiny_transactions.csv, a small fraud-detection dataset. It contains five numeric features (V1-V5), transaction amount, transaction time, and the binary fraud label stored in Class. This GitHub-hosted file carries uniqueness while also remaining lightweight enough for NiFi and Hadoop services.
-Direct raw GitHub URL:
-https://raw.githubusercontent.com/SankarPatnaik/creditcard_fraud/main/data/raw/tiny_transactions.csv
